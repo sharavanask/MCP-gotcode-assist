@@ -6,7 +6,7 @@ from urllib.parse import urlparse
 # Initialize MCP Server
 mcp = FastMCP("assistcode")
 # Hugging Face API Info
-HF_API_TOKEN = "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"
+HF_API_TOKEN = "************************"
 HF_API_URL = "https://api-inference.huggingface.co/models/mistralai/Mixtral-8x7B-Instruct-v0.1"
 HEADERS = {"Authorization": f"Bearer {HF_API_TOKEN}"}
 
